@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr = [1, '-', 2, '-', 4, '-', 4];
+    let newstring = '';
+        for(let i=0;i<arr.length;i++){
+            if (arr[i] === '-'){
+                newstring += '_';
+            } else {
+                newstring += arr[i];
+            }
+        }
+        document.write(newstring);
+
+</script>
+</body>
+</html>
